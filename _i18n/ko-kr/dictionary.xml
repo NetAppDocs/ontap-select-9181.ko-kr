@@ -2223,8 +2223,6 @@
   <block id="2511ead16bda3bbe0040b8814548bb87" category="list-text">S3 SnapMirror</block>
   <block id="047fc3d7b951880ca6749f6433cfe2bf" category="list-text">SnapLock Select</block>
   <block id="38b80c13e49233a5fa3471c364fdc493" category="paragraph">SnapLock Select는 ONTAP Select용으로 설계된 ONTAP SnapLock 구현이며 SnapLock Enterprise를 포함합니다. SnapLock Compliance는 포함되어 있지 않습니다.</block>
-  <block id="5641890857d855addbaf3e3074d37f96" category="inline-link-macro">ONTAP SnapLock에 대해 알아보십시오</block>
-  <block id="eef5b24d94b7497050fd72c30a339f6a" category="paragraph"><block ref="eef5b24d94b7497050fd72c30a339f6a" category="inline-link-macro-rx"></block></block>
   <block id="794cb725c5631ad99b5b7c000307f0df" category="list-text">SnapMirror</block>
   <block id="3a7c61c685981e316491699fa430a141" category="list-text">SnapMirror 클라우드</block>
   <block id="82ef718f4ebe0c276814ee3d51e33361" category="list-text">SnapRestore</block>
@@ -2295,12 +2293,8 @@
   <block id="9b08665180caa1c2f681ecd893474c76" category="list-text">10개 노드에서 8개 또는 6개 노드로</block>
   <block id="fb6ec34800c58ebc5bb6517ce0db74b8" category="list-text">8개 노드에서 6개 노드로</block>
   <block id="8c4c7ec85ddc20b785383c7e3b83aaf3" category="list-text">SnapMirror 클라우드 지원</block>
-  <block id="8e6364cfe908f51088b3ba968ff3a1ef" category="list-text">ONTAP Select 9.17.1부터 SnapMirror 클라우드가 ONTAP Select에서 지원됩니다. SnapMirror 클라우드는 ONTAP Select 9.17.1 클러스터를 배포하거나 기존 ONTAP Select 클러스터를 버전 9.17.1로 업그레이드할 때 기본적으로 활성화되는 라이센스가 부여된 ONTAP 기능입니다.</block>
-  <block id="138c7cd45c4194bbbdcc248c8d717a95" category="inline-link">SnapMirror 클라우드 백업을 객체 스토리지에 적용하는 방법에 대해 알아보세요</block>
-  <block id="a674f1954e78adeee48a68d3b46f7329" category="paragraph"><block ref="e78089da9b0e2900996a3bebc3fd1588" category="inline-link-rx"></block>.</block>
   <block id="d7a5c2d00ea9258a0d2580ffe65ad84c" category="list-text">SnapLock Select 지원</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">NetApp 지원 사이트</block>
-  <block id="3ef41e1838b5f933bc2b06f1eb6efb06" category="list-text">ONTAP Select 9.17.1 버전부터는 신규 구축 시 SnapLock Select(위변조 방지 스냅샷 잠금 기능 포함) 라이선스가 자동으로 적용됩니다. ONTAP Select 9.16.1 이하 버전에서 업그레이드하는 경우, SnapLock Select 라이선스를 <block ref="a42716fdd3c80ae75cadfb8024b65de0" category="inline-link-macro-rx"></block>에서 무료로 다운로드하여 수동으로 적용할 수 있습니다. 자세한 내용은 <block ref="c7da6e6f478f90eda131fcbe777888c9" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="e9d1284d8df9151f9bec7a163cd5c363" category="list-text">다중 노드 클러스터에서 vSAN ESA 지원</block>
   <block id="4ba59a7efee785c52f70cdae7fca55c3" category="list-text">ONTAP Select 9.17.1부터 vSAN Express Storage Architecture(ESA) 지원이 확장되어 다중 노드 클러스터를 배포할 수 있습니다. 이 개선 사항을 통해 vSAN ESA 구성을 배포할 수 있습니다.</block>
   <block id="a8642b6a7959681743079d45db6cce81" category="paragraph">vSAN ESA는 ESXi 전용 구성이며 vSphere 8에서 도입된 VMware vSAN의 새로운 아키텍처입니다. vSAN ESA는 특히 NVMe 기반 TLC 플래시 장치를 사용할 때 향상된 효율성, 확장성 및 성능을 제공하도록 설계되었습니다.</block>
@@ -4056,4 +4050,12 @@
   <block id="0a15f7ba73868a32304fdf52855463c9" category="sidebar">ONTAP Select 이미지 제거</block>
   <block id="afc9d68a1be701598b5ef94dc0be2844" category="sidebar">2노드 클러스터에 대한 Deploy 복구</block>
   <block id="3ff87e54e9b20339b68f24cf241f05b0" category="sidebar">평가 소프트웨어 액세스</block>
+  <block id="af30d81f9a8c2c0f5b25d08da7858ddc" category="inline-link-macro">ONTAP SnapLock</block>
+  <block id="4f187117101edb6221a27ad094532806" category="paragraph"><block ref="e5be20e426588130203bae7a7e597f79" category="inline-link-macro-rx"></block>에 대해 알아보십시오</block>
+  <block id="b638d0f1dd4c80d3617cfefeec604c5d" category="inline-link-macro">비기술 지원 사례 개설</block>
+  <block id="7a3af7c91740e45930119ddce3bf0d83" category="paragraph"><block ref="edc9445a6277b18c79e0ada4e6ba9f5f" category="inline-link-macro-rx"></block>SnapMirror 클라우드 라이센스를 취득해야 합니다.</block>
+  <block id="d6e5e04c7b9c56d9515955d288b0e813" category="inline-link-macro">SnapMirror 클라우드 백업을 오브젝트 스토리지에 저장</block>
+  <block id="609570e1a92256aa3f9b774f7dbf24fc" category="paragraph"><block ref="4ae01b68125388898638ecb3eb2e59b7" category="inline-link-macro-rx"></block>에 대해 알아보십시오</block>
+  <block id="d8818ebf9ca1095fb7a5372f4292243c" category="list-text">ONTAP Select 9.17.1부터 SnapMirror 클라우드가 ONTAP Select에서 지원됩니다. SnapMirror 클라우드는 기본적으로 ONTAP Select에 대해 라이센스가 부여되지 않습니다. ONTAP Select 9.17.1 클러스터를 배포하거나 기존 ONTAP Select 클러스터를 버전 9.17.1로 업그레이드할 때 SnapMirror 클라우드 라이센스를 요청해야 합니다. 자세한 내용은 <block ref="721bf771faed6cfbdee5aa217f7b1ff8" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="142f59b080f0f1bf1136c761bdeb20c0" category="list-text">ONTAP Select 9.17.1 버전부터는 신규 구축 시 SnapLock Select(위변조 방지 스냅샷 잠금 기능 포함) 라이선스가 자동으로 적용됩니다. ONTAP Select 9.16.1 이하 버전에서 업그레이드하는 경우, SnapLock Select 라이선스를 <block ref="a42716fdd3c80ae75cadfb8024b65de0" category="inline-link-macro-rx"></block>에서 무료로 다운로드하여 수동으로 적용할 수 있습니다. 자세한 내용은 <block ref="c7da6e6f478f90eda131fcbe777888c9" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
 </blocks>
