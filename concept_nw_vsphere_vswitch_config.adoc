@@ -38,6 +38,7 @@ NOTE: ONTAP Select는 최대 4개의 VMNIC를 지원합니다.
 
 
 
+[[standard-or-distributed-vswitch-and-four-physical-ports-per-node]]
 == 표준 또는 분산형 vSwitch 및 노드당 4개의 물리적 포트
 
 다중 노드 클러스터의 각 노드에 4개의 포트 그룹을 할당할 수 있습니다. 각 포트 그룹에는 다음 그림과 같이 하나의 활성 물리적 포트와 3개의 대기 물리적 포트가 있습니다.
@@ -106,6 +107,7 @@ image:DDN_12.jpg["파트 2: ONTAP Select 내부 포트 그룹"]
 |===
 
 
+[[standard-or-distributed-vswitch-and-two-physical-ports-per-node]]
 == 표준 또는 분산형 vSwitch 및 노드당 두 개의 물리적 포트
 
 고속(25/40Gb) NIC 두 개를 사용할 경우 권장 포트 그룹 구성은 10Gb 어댑터 네 개를 사용할 때와 개념적으로 매우 유사합니다. 물리적 어댑터를 두 개만 사용하더라도 네 개의 포트 그룹을 사용하는 것이 좋습니다. 포트 그룹 할당은 다음과 같습니다.
@@ -134,6 +136,7 @@ image:DDN_13.jpg["노드당 물리적 포트 2개를 사용하는 vSwitch"]
 
 
 
+[[distributed-vswitch-with-lacp]]
 == LACP를 사용하는 분산형 vSwitch
 
 구성에서 분산 vSwitches를 사용하는 경우 네트워크 구성을 간소화하기 위해 LACP를 사용할 수 있습니다(권장 사항은 아니지만). 지원되는 유일한 LACP 구성에서는 모든 VMNIC가 단일 LAG에 있어야 합니다. 업링크 물리적 스위치는 채널의 모든 포트에서 7,500~9,000 사이의 MTU 크기를 지원해야 합니다. 내부 및 외부 ONTAP Select 네트워크는 포트 그룹 수준에서 격리되어야 합니다. 내부 네트워크는 라우팅 불가능한(격리된) VLAN을 사용해야 합니다. 외부 네트워크는 VST, EST 또는 VGT 중 하나를 사용할 수 있습니다.

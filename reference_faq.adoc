@@ -23,6 +23,7 @@ ONTAP Select 9.14.1부터 KVM 하이퍼바이저에 대한 지원이 복원되�
 ====
 
 
+[[general]]
 == 일반
 
 몇 가지 일반적인 질문과 답변이 있습니다.
@@ -55,6 +56,7 @@ link:mailto:ng-ses-ontap-select@netapp.com["ng-ses-ontap-select@netapp.com"]에 
 
 
 
+[[licenses-installation-upgrades-and-reverts]]
 == 라이센스, 설치, 업그레이드 및 되돌리기
 
 라이선스, 설치, 업그레이드 및 되돌리기와 관련된 몇 가지 질문과 답변이 있습니다.
@@ -125,6 +127,7 @@ Capacity Pool 구독이 만료되면 시스템에서 먼저 경고를 표시하�
 
 
 
+[[storage]]
 == 스토리지
 
 스토리지와 관련된 몇 가지 질문과 답변이 있습니다.
@@ -216,6 +219,7 @@ ONTAP Select vNAS 구성의 경우, 동일한 호스트에 여러 ONTAP Select �
 
 
 
+[[vcenter]]
 == vCenter
 
 VMware vCenter와 관련된 몇 가지 질문과 답변이 있습니다.
@@ -239,6 +243,7 @@ ONTAP Select Deploy는 다음과 같이 ONTAP Select 노드 및 클러스터 관
 
 
 
+[[ha-and-clusters]]
 == HA 및 클러스터
 
 HA 쌍 및 클러스터와 관련된 몇 가지 질문과 답변이 있습니다.
@@ -300,6 +305,7 @@ HA 트래픽을 별도의 물리적 인프라에 분리하면 Select VM이 피�
 
 
 
+[[mediator-service]]
 == 중재자 서비스
 
 중재자 서비스를 다루는 몇 가지 질문과 답변이 있습니다.

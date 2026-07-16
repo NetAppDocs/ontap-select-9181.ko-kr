@@ -21,6 +21,8 @@ NOTE: 하드웨어별 종속성이 있는 ONTAP 기능은 일반적으로 ONTAP 
 
 
 
+[[ontap-features-automatically-enabled-by-default]]
+[[enabled-ontap-features]]
 == 기본적으로 자동으로 활성화되는 ONTAP 기능
 
 다음 ONTAP 기능은 ONTAP Select에서 지원되며 기본적으로 라이센스가 부여됩니다.
@@ -62,6 +64,7 @@ ONTAP Select는 SVM DR을 소스 및 대상으로 모두 지원하며 최대 16�
 
 
 
+[[ontap-features-that-are-separately-licensed]]
 == 별도로 라이센스가 부여되는 ONTAP 기능
 
 기본적으로 활성화되어 있지 않은 ONTAP 기능에 대해서는 별도의 라이선스를 취득해야 합니다. 여기에는 다음 기능들이 포함됩니다.

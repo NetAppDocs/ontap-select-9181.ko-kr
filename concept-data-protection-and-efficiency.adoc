@@ -18,12 +18,14 @@ ONTAP Select는 ONTAP 스토리지 소프트웨어를 기반으로 구축되어 
 
 
 
+[[snapshot-data-protection]]
 == 스냅샷 데이터 보호
 
 ONTAP Select에는 스냅샷 및 SnapMirror 소프트웨어를 포함한 데이터 보호 기능이 제공됩니다. 온프레미스, 원격 사이트 또는 클라우드 등 다른 ONTAP 스토리지로 데이터를 신속하게 복제할 수 있습니다. 데이터를 신속하게 복구해야 하는 경우 SnapRestore 소프트웨어를 사용하면 로컬 스냅샷을 활용하여 파일 시스템 전체 또는 데이터 볼륨을 용량이나 파일 수에 관계없이 몇 초 만에 복구할 수 있습니다.
 
 
 
+[[metrocluster-software-defined-storage]]
 == MetroCluster 소프트웨어 정의 스토리지
 
 ONTAP Select MetroCluster 소프트웨어 정의 스토리지(SDS)는 향상된 보호 기능과 비용 효율적인 구현을 제공합니다.

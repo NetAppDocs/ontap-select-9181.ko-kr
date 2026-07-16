@@ -2299,9 +2299,6 @@
   <block id="4ba59a7efee785c52f70cdae7fca55c3" category="list-text">ONTAP Select 9.17.1부터 vSAN Express Storage Architecture(ESA) 지원이 확장되어 다중 노드 클러스터를 배포할 수 있습니다. 이 개선 사항을 통해 vSAN ESA 구성을 배포할 수 있습니다.</block>
   <block id="a8642b6a7959681743079d45db6cce81" category="paragraph">vSAN ESA는 ESXi 전용 구성이며 vSphere 8에서 도입된 VMware vSAN의 새로운 아키텍처입니다. vSAN ESA는 특히 NVMe 기반 TLC 플래시 장치를 사용할 때 향상된 효율성, 확장성 및 성능을 제공하도록 설계되었습니다.</block>
   <block id="5481638e1ad922295838ce542f9aff38" category="paragraph">ONTAP Select Deploy 및 ONTAP Select for ESXi는 스토리지 풀에 vSAN 또는 외부 어레이 유형의 데이터 저장소를 사용하여 ONTAP Select 단일 노드 및 다중 노드 클러스터 구성을 지원합니다.</block>
-  <block id="9f2987dffbb8cc07dc722392ca553e1e" category="paragraph">콘텐츠 라이브러리 작업을 수행하려면 추가 권한 수준에 대한 액세스가 필요합니다. 이는 제한된 역할을 사용하는 vSAN ESA 배포에 필수적입니다.</block>
-  <block id="6146fd29f571a044684d201d9c796583" category="inline-link-macro">콘텐츠 라이브러리 작업에 대한 권한 수준 액세스에 대해 알아보십시오</block>
-  <block id="23add99dd3b98f3716a4830bf3524c6e" category="paragraph"><block ref="0338668b24eba8707cba4da17831f4b6" category="inline-link-macro-rx"></block>.</block>
   <block id="8636e1dc9721a5c30a4e439da7b5f9a1" category="list-text">업데이트된 NDA 드라이버 지원</block>
   <block id="47a73413b58dd69883b3d5bfcaf3ae17" category="list-text">ONTAP Select 9.17.1부터 FreeBSD NDA(NVMe Direct Access) 장치 드라이버가 NVD(NVMe express disk driver)를 대체합니다. FreeBSD 드라이버는 NVMe 명령 프로토콜을 구현하여 직접 액세스 장치에 대한 지원을 제공합니다. ONTAP Select 9.17.1 클러스터를 배포하거나 기존 ONTAP Select 클러스터를 버전 9.17.1로 업그레이드할 때 NVMe 장치를 구성하면 기본적으로 FreeBSD 드라이버가 시작됩니다.</block>
   <block id="9fe4db073ef9cb1070ea002413806d7b" category="paragraph">ONTAP Select 9.16.1 이하 버전의 경우, NVD는 ONTAP Select 배포 환경에서 NVMe 장치에 대한 지원을 계속 제공합니다.</block>
@@ -2534,9 +2531,7 @@
   <block id="0322e46fade696f2e31f29923f0e13e7" category="paragraph">Deploy는 다음 프로토콜을 사용하여 ONTAP Select 노드 및 클러스터 관리 IP 주소와 통신할 수 있어야 합니다.</block>
   <block id="62a5303a3a11fbd7213daedd9ed6e5b5" category="list-text">PING 명령(ICMP)</block>
   <block id="a808fd43c31372cb5ef7ac1ac9224c52" category="list-text">Deploy 가상 머신의 관리 LIF에 IPv4 주소를 할당해야 합니다.</block>
-  <block id="2e4143d0df24451229cbcf21d106b6c5" category="section-title">ONTAP Select Deploy VMware vCenter 서버 고려 사항</block>
   <block id="0cdb970631a712b516a9779c1d127d32" category="section-title">ESA용 VMware vSphere 권한</block>
-  <block id="fe2a57ed0ddb8d9b57b737aff59f340b" category="paragraph">다음은 vCenter에서 vSAN Express Storage Architecture (ESA)를 생성하고 관리하는 데 필요한 vSphere 콘텐츠 라이브러리의 특정 권한 목록입니다.</block>
   <block id="7fda80facd4b5302f2a2c887c2ecb595" category="list-text">라이브러리 항목 추가</block>
   <block id="5ac2b813625b685d2cd86e5bbd2e2259" category="list-text">로컬 라이브러리 생성</block>
   <block id="036e7b8c4bda5955184609f09f458e15" category="list-text">라이브러리 항목 삭제</block>
@@ -2919,7 +2914,6 @@
   <block id="89c3bcf0ecc1114f8d19734d9156cb40" category="list-text">프로비저닝</block>
   <block id="776c22edd71a94b798c726e47a0fce00" category="section-title">vApp</block>
   <block id="ee1aadb3a9fa619eb12db5d1e58032b4" category="inline-link-macro">vCenter에서 vSAN ESA를 위한 VMware vSphere 권한에 대해 알아보기</block>
-  <block id="653a421852b6e9fc7e8da536351d6d57" category="paragraph"><block ref="653a421852b6e9fc7e8da536351d6d57" category="inline-link-macro-rx"></block></block>
   <block id="694d40220902b22c12e6697b843de1d6" category="summary">VMware ESXi 사용과 관련하여 고려해야 할 몇 가지 계획 문제가 있습니다.</block>
   <block id="324bea2f11169e67c398f52f2473e586" category="doc">ONTAP Select용 VMware ESXi 외부 스토리지 요구 사항</block>
   <block id="bcee2262402cb4341eea3a827fc4df93" category="paragraph">ONTAP Select vNAS는 ONTAP Select 데이터 저장소를 ONTAP Select 가상 머신이 실행되는 ESXi 하이퍼바이저 호스트 외부에 둘 수 있도록 하는 솔루션입니다. 이러한 원격 데이터 저장소는 VMware vSAN 또는 일반적인 외부 스토리지 어레이를 통해 액세스할 수 있습니다.</block>
@@ -4058,4 +4052,11 @@
   <block id="609570e1a92256aa3f9b774f7dbf24fc" category="paragraph"><block ref="4ae01b68125388898638ecb3eb2e59b7" category="inline-link-macro-rx"></block>에 대해 알아보십시오</block>
   <block id="d8818ebf9ca1095fb7a5372f4292243c" category="list-text">ONTAP Select 9.17.1부터 SnapMirror 클라우드가 ONTAP Select에서 지원됩니다. SnapMirror 클라우드는 기본적으로 ONTAP Select에 대해 라이센스가 부여되지 않습니다. ONTAP Select 9.17.1 클러스터를 배포하거나 기존 ONTAP Select 클러스터를 버전 9.17.1로 업그레이드할 때 SnapMirror 클라우드 라이센스를 요청해야 합니다. 자세한 내용은 <block ref="721bf771faed6cfbdee5aa217f7b1ff8" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="142f59b080f0f1bf1136c761bdeb20c0" category="list-text">ONTAP Select 9.17.1 버전부터는 신규 구축 시 SnapLock Select(위변조 방지 스냅샷 잠금 기능 포함) 라이선스가 자동으로 적용됩니다. ONTAP Select 9.16.1 이하 버전에서 업그레이드하는 경우, SnapLock Select 라이선스를 <block ref="a42716fdd3c80ae75cadfb8024b65de0" category="inline-link-macro-rx"></block>에서 무료로 다운로드하여 수동으로 적용할 수 있습니다. 자세한 내용은 <block ref="c7da6e6f478f90eda131fcbe777888c9" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="115b70fb63fe464e7cf86f17b11f1d67" category="paragraph">콘텐츠 라이브러리 작업을 수행하려면 추가 권한 수준에 대한 액세스가 필요합니다. 제한된 역할을 사용하는 vSAN ESA 배포 환경에서는 이러한 액세스가 필수적입니다.</block>
+  <block id="b1689d890e3bfdba864c509e65029ab6" category="inline-link-macro">콘텐츠 라이브러리 작업에 대한 액세스 권한 수준 알아보기</block>
+  <block id="420c43a81b06eb199719986301b88739" category="paragraph"><block ref="349cc67b5cd523e4bbe7acd476212356" category="inline-link-macro-rx"></block>.</block>
+  <block id="645dbfc8ae0a73e8087fbcb0a997027f" category="section-title">VMware vCenter 서버 고려 사항</block>
+  <block id="3c877a9561264bd22f7ed715473c9258" category="paragraph">vCenter에서 vSAN Express Storage Architecture(ESA)를 생성하고 관리하려면 다음과 같은 vSphere 콘텐츠 라이브러리 권한이 필요합니다.</block>
+  <block id="913b24f487842d48914e3794480e83cc" category="admonition">콘텐츠 라이브러리 권한에 액세스하려면 관리자가 vCenter Server의 전역 권한에 대한 액세스 권한을 부여해야 합니다.</block>
+  <block id="c0d2cde9a14e7d58e2ab5a38de5b380d" category="paragraph"><block ref="c0d2cde9a14e7d58e2ab5a38de5b380d" category="inline-link-macro-rx"></block></block>
 </blocks>

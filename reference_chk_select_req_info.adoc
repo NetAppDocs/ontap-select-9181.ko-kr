@@ -20,6 +20,7 @@ VMware 환경에 ONTAP Select 클러스터를 배포하기 위한 준비 과정�
 
 
 
+[[cluster-level-information]]
 == 클러스터 수준 정보
 
 ONTAP Select 클러스터와 관련된 정보를 수집해야 합니다.
@@ -39,6 +40,7 @@ ONTAP Select 클러스터와 관련된 정보를 수집해야 합니다.
 |===
 
 
+[[host-level-information]]
 == 호스트 수준 정보
 
 ONTAP Select 클러스터의 각 노드와 관련된 정보를 수집해야 합니다.

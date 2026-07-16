@@ -21,6 +21,7 @@ CAUTION: NetApp 지원팀의 지시가 없는 한 ONTAP Select 가상 머신의 
 
 
 
+[[hypervisor-independent]]
 == 하이퍼바이저 독립적
 
 ONTAP Select와 ONTAP Select Deploy 관리 유틸리티는 모두 하이퍼바이저 독립적입니다.
@@ -64,6 +65,7 @@ ONTAP Select 노드를 ONTAP 하드웨어 기반 클러스터에 직접 추가�
 
 
 
+[[vmware-hypervisor-environment]]
 == VMware 하이퍼바이저 환경
 
 VMware 환경에 ONTAP Select Deploy 유틸리티를 설치하기 전에 고려해야 할 VMware 환경 특유의 요구 사항 및 제한 사항이 몇 가지 있습니다.
@@ -106,13 +108,14 @@ ONTAP Select Deploy는 IP 버전 4(IPv4)만 지원합니다. IP 버전 6(IPv6)�
 
 
 
-== ONTAP Select Deploy VMware vCenter 서버 고려 사항
+[[vmware-vcenter-server-considerations]]
+== VMware vCenter 서버 고려 사항
+
+.ESA용 VMware vSphere 권한
+vCenter에서 vSAN Express Storage Architecture(ESA)를 생성하고 관리하려면 다음과 같은 vSphere 콘텐츠 라이브러리 권한이 필요합니다.
 
 
-
-=== ESA용 VMware vSphere 권한
-
-다음은 vCenter에서 vSAN Express Storage Architecture (ESA)를 생성하고 관리하는 데 필요한 vSphere 콘텐츠 라이브러리의 특정 권한 목록입니다.
+NOTE: 콘텐츠 라이브러리 권한에 액세스하려면 관리자가 vCenter Server의 전역 권한에 대한 액세스 권한을 부여해야 합니다.
 
 * 라이브러리 항목 추가
 * 로컬 라이브러리 생성

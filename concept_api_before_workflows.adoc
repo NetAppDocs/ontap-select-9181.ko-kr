@@ -18,6 +18,7 @@ summary: 워크플로 프로세스를 검토하고 사용할 준비를 해야 �
 
 
 
+[[understand-the-api-calls-used-in-the-workflows]]
 == 워크플로에서 사용되는 API 호출 이해
 
 ONTAP Select 온라인 문서 페이지에는 모든 REST API 호출에 대한 세부 정보가 포함되어 있습니다. 여기서는 해당 세부 정보를 반복하지 않고, 워크플로 샘플에서 사용되는 각 API 호출에는 문서 페이지에서 해당 호출을 찾는 데 필요한 정보만 포함되어 있습니다. 특정 API 호출을 찾은 후에는 입력 매개변수, 출력 형식, HTTP 상태 코드 및 요청 처리 유형을 포함한 호출의 전체 세부 정보를 확인할 수 있습니다.
@@ -31,6 +32,7 @@ ONTAP Select 온라인 문서 페이지에는 모든 REST API 호출에 대한 �
 
 
 
+[[construct-a-url-to-directly-access-the-rest-api]]
 == REST API에 직접 액세스할 수 있는 URL 구성
 
 ONTAP Select 설명서 페이지 외에도 Python과 같은 프로그래밍 언어를 통해 Deploy REST API에 직접 액세스할 수 있습니다. 이 경우 핵심 URL은 온라인 설명서 페이지에 액세스할 때 사용하는 URL과 약간 다릅니다. API에 직접 액세스할 때는 도메인과 포트 문자열 뒤에 /api를 추가해야 합니다. 예를 들면 다음과 같습니다.

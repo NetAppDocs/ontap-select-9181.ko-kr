@@ -20,6 +20,7 @@ summary: 명령줄 인터페이스를 사용하여 기존 Deploy 관리 유틸�
 
 
 
+[[step-1back-up-the-deploy-configuration-data]]
 == 1단계: Deploy 구성 데이터를 백업합니다
 
 가상 머신을 마이그레이션하는 과정에서 Deploy 구성 데이터의 백업을 생성해야 합니다. ONTAP Select 클러스터를 배포한 후에도 백업을 생성해야 합니다. 데이터는 암호화된 단일 파일로 저장되며, 이 파일을 로컬 워크스테이션으로 다운로드할 수 있습니다.
@@ -63,6 +64,7 @@ URL을 통해 백업 파일에 액세스할 수 있습니다.
 
 
 
+[[step-2-install-a-new-instance-of-the-deploy-virtual-machine]]
 == 2단계: Deploy 가상 머신의 새 인스턴스를 설치합니다
 
 원래 가상 머신의 구성 데이터로 업데이트할 수 있는 Deploy 가상 머신의 새 인스턴스를 생성해야 합니다.
@@ -88,6 +90,7 @@ link:task_install_deploy.html["ONTAP Select Deploy 설치"]
 
 
 
+[[step-3-restore-the-deploy-configuration-data-to-the-new-virtual-machine]]
 == 3단계: Deploy 구성 데이터를 새 가상 머신으로 복원합니다
 
 원래 Deploy 유틸리티 가상 머신의 구성 데이터를 새 가상 머신으로 복원해야 합니다. 데이터는 단일 파일에 저장되어 있으며, 로컬 워크스테이션에서 해당 파일을 업로드해야 합니다.

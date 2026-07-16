@@ -18,12 +18,14 @@ summary: ONTAP Select Deploy의 이 인스턴스를 사용하여 호스트 관�
 
 
 
+[[syntax]]
 == 구문
 
 `host modify [-help] [-foreground] -name _name_ -mgmt-server _management_server_ [-username _username_]`
 
 
 
+[[required-parameters]]
 == 필수 매개변수
 
 [cols="35,65"]
@@ -48,6 +50,7 @@ summary: ONTAP Select Deploy의 이 인스턴스를 사용하여 호스트 관�
 |===
 
 
+[[optional-parameters]]
 == 선택적 매개변수
 
 [cols="35,65"]
