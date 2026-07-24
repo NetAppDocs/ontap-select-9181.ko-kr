@@ -54,6 +54,9 @@ SnapLock Select는 ONTAP Select용으로 설계된 ONTAP SnapLock 구현이며 S
 link:https://docs.netapp.com/us-en/ontap/snaplock/index.html["ONTAP SnapLock"^]에 대해 알아보십시오
 
 * SnapMirror
++
+ONTAP Select는 비동기 SnapMirror에서 일관성 그룹을 지원하지 않습니다.
+
 * SnapRestore
 * SnapVault
 * 스토리지 VM 재해 복구(SVM DR)
